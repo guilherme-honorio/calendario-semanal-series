@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #0c1b33;
+}
+
+a {
+    color: #00303f;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2.7rem;
+}
+
+#titulo {
+    margin-top: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    color: #deb841;
+}
+
+.linha1, .linha2{
+    display: flex;
+    justify-content: center;
+}
+
+.manha {
+    width: 25rem;
+    height: 20rem;
+
+    background: #deb841;
+    border: 5px solid #dcae1a;
+
+    font-family: 'Poppins', sans-serif;
+    color: #00303f;
+
+    margin-top: 3rem;
+
+}
+
+.manha .titulo {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.manha .lista {
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.calendario {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 50% 50%;
+
+    height: 30rem;
+    width: 60rem;
+
+    margin-top: 4rem;
+    
+}
+
+.dia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+
+    font-family: 'Poppins', sans-serif;
+    color: #00303f;
+
+    background: #deb841;
+    border-right: 5px solid #dcae1a;
+
+    padding: 0.9rem 0rem 0.6rem;
+}
+
+.titulo {
+   align-self: center;
+}
+
+.top {
+    border-top: 5px solid #dcae1a;
+    border-bottom: 5px solid #dcae1a;
+}
+
+.left {
+    border-left: 5px solid #dcae1a;
+}
+
+.bottom {
+    border-bottom: 5px solid #dcae1a;
+}
+
+.dia .lista {
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+
+    word-wrap: break-word;
+}
+
+.dia a {
+    /* margin-left: 3rem; */
+    /* margin-top: 2rem; */
+
+    font-weight: 700;
+    color: #bb0a21;
+}
+
+.dia footer {
+    display: flex;
+    align-items: center;
+
+    margin-left: 1.1rem;
+
+}
+
+.dia footer img {
+    margin-right: 0.3rem;
+}
+
+.segunda footer{
+    margin-top: 4rem;
+}
+
+
+
+.terca footer {
+    margin-top: 1rem;
+}
+
+.quarta footer {
+    margin-top: 2.5rem;
+}
+
+.quinta footer {
+    margin-top: 0.3rem;
+}
+
+.sexta footer {
+    margin-top: 3.4rem; 
+}
+
+.sabado footer {
+    margin-top: 4.9rem;
+}
+
+
+
