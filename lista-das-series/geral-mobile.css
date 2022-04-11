@@ -1,0 +1,24 @@
+@media only screen and (max-width: 425px) {
+    header h1{
+        width: 100%;
+        font-size: 1.4rem;
+        text-align: center;
+
+    }
+
+    .filme {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+
+        width: 100%;
+        height: 100%;
+    }
+
+    .detalhes-filmes {
+        margin-top: 3rem;
+    }
+
+}

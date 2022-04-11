@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #161925;
+}
+
+header {
+    height: 10%;
+
+    font-family: 'Poppins', sans-serif;
+    color: #bb0a21; 
+
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+main h2 {
+    font-family: 'Poppins', sans-serif;
+
+    color: #328cc1;
+    
+    font-size: 2.8rem;
+    font-weight: 700;
+
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: -4rem;
+}
+
+
+.filme {
+    display: flex;
+    align-items: center;
+
+    width: 50rem;
+
+    font-family: 'Poppins', sans-serif; 
+    color: #337ca0;
+
+    font-size: 1.17rem;
+    font-weight: 600;
+
+    margin-top: 7rem;
+    margin-left: 5rem;
+}
+
+.filme p {
+    margin-left: 1.5rem;
+    
+}
+
+.linha-superior {
+    display: flex;
+    /* margin-bottom: 3rem; */
+}
+
+.detalhes-filmes {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.duracao {
+    color: #bb0a21;  
+}
+
+.info-filme {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 2rem;
+
+    color: #f0a500;
+    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+
+    height: 3rem;
+    
+    background: #1d2731;
+
+    margin-top: 2rem;
+    
+}
+

@@ -1,0 +1,97 @@
+@media only screen and (max-width: 1450px) {
+    #titulo {
+        text-align: center;
+    }
+
+    .manha {
+        width: 30%;
+        margin-left: 2.3rem;
+    }
+
+    .calendario {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+        row-gap: 19rem;
+    }
+
+    .dia {
+        width: 15rem;
+        height: 20rem;
+        margin-left: 23.5rem;
+        word-wrap: break-word;
+
+        border: 5px solid #dcae1a;
+
+    }
+
+    .dia .terca {
+        width: 15.3rem;
+        
+    }
+
+    .segunda footer {
+        margin-top: 8.6rem;
+    }
+
+    .terca footer {
+        margin-top: 5.8rem;
+    }
+
+    .quarta footer {
+        margin-top: 7.1rem;
+    }
+
+    .quinta footer {
+        margin-top: 4rem;
+    }
+
+    .sexta footer {
+        margin-top: 8.6rem;
+    }
+
+    .sabado footer {
+        margin-top: 9rem;
+    }
+
+}
+
+@media only screen and (max-width: 336px) {
+    .manha {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 443px) {
+    #titulo {
+        text-align: center;
+        margin-right: 1.5rem;
+    }
+    .manha {
+        width: 78%;
+        margin-right: 1rem;
+        margin-left: 4rem;
+    }
+
+    .dia {
+        margin-left: 24rem;
+        
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #titulo {
+        text-align: center;
+        margin-right: 1.5rem;
+    }
+    .manha {
+        width: 60%;
+        margin-right: 1rem;
+    }
+
+    .dia {
+        margin-left: 23rem;
+        
+    }
+}
+
